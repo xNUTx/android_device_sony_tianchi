@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 780
 
 # Torch
 PRODUCT_PACKAGES := \
@@ -27,11 +27,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/sony/common/resources.mk)
 
 # Inherit from honami device
-$(call inherit-product, device/sony/honami/honami.mk)
+$(call inherit-product, device/sony/tianchi/tianchi.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_honami
-PRODUCT_DEVICE := honami
+PRODUCT_NAME := full_tianchi
+PRODUCT_DEVICE := tianchi
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia Z1
+PRODUCT_MODEL := Xperia T2 Ultra dual

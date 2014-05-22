@@ -13,20 +13,20 @@
 # limitations under the License.
 
 # inherit from the common rhine definitions
-include device/sony/rhine-common/BoardConfigCommon.mk
+#include device/sony/rhine-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
-#-include vendor/sony/honami/BoardConfigVendor.mk
+#-include vendor/sony/tianchi/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := C6902,C6903,C6906,C6943,honami
+TARGET_OTA_ASSERT_DEVICE := D5322,tianchi
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/honami/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/tianchi/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/tianchi/bluetooth
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_rhine_honami_row_defconfig
+TARGET_KERNEL_CONFIG := cm_tianchi_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
