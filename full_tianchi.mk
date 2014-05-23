@@ -14,7 +14,7 @@
 # limitations under the License.
 
 TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 780
+TARGET_SCREEN_WIDTH := 720
 
 # Torch
 PRODUCT_PACKAGES := \
