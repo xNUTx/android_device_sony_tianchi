@@ -26,7 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Common Sony Resources
 $(call inherit-product, device/sony/common/resources.mk)
 
-# Inherit from honami device
+# Inherit from tianchi device
 $(call inherit-product, device/sony/tianchi/tianchi.mk)
 
 # Set those variables here to overwrite the inherited values.
