@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from the common rhine definitions
-#include device/sony/rhine-common/BoardConfigCommon.mk
+# inherit from the common msm8226 definitions
+include device/sony/msm8226-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 #-include vendor/sony/tianchi/BoardConfigVendor.mk
