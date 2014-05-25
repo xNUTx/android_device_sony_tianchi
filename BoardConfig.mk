@@ -16,7 +16,7 @@
 include device/sony/msm8226-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
-#-include vendor/sony/tianchi/BoardConfigVendor.mk
+-include vendor/sony/tianchi/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D5322,tianchi
