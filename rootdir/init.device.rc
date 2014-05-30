@@ -1,10 +1,10 @@
 on boot
-    # cmdline
+    # CMDLINE
     chmod 0644 /proc/cmdline
 
     # Panel backlight
-    chown system system /sys/class/leds/wled:backlight/brightness
-    chmod 660 /sys/class/leds/wled:backlight/brightness
+    chown system system /sys/class/leds/lm3630-lcd-bl/brightness
+    chmod 660 /sys/class/leds/lm3630-lcd-bl/brightness
 
     # PM8941 flash
     chown system camera /sys/class/misc/pm8941-flash/device/current1
