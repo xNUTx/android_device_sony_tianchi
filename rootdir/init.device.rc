@@ -11,5 +11,5 @@ on boot
     chmod 666 /sys/class/leds/torch-light/brightness
 
     # Vibrator
-    chown system system /sys/devices/i2c-2/2-0049/intensity
+    chown system system /sys/class/timed_output/vibrator/enable
 
