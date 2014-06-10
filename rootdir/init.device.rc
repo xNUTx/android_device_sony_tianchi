@@ -6,13 +6,10 @@ on boot
     chown system system /sys/class/leds/lm3630-lcd-bl/brightness
     chmod 660 /sys/class/leds/lm3630-lcd-bl/brightness
 
-    # PM8941 flash
-    chown system camera /sys/class/misc/pm8941-flash/device/current1
-    chown system camera /sys/class/misc/pm8941-flash/device/current2
-    chown system camera /sys/class/misc/pm8941-flash/device/fault_status
-    chown system camera /sys/class/misc/pm8941-flash/device/flash_timer
-    chown system camera /sys/class/misc/pm8941-flash/device/mode
-    chown system camera /sys/class/misc/pm8941-flash/device/strobe
+    # Flash
+    chown system camera /sys/class/leds/torch-light/brightness
+    chmod 666 /sys/class/leds/torch-light/brightness
 
     # Vibrator
     chown system system /sys/devices/i2c-2/2-0049/intensity
+
