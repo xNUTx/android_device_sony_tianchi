@@ -26,7 +26,8 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/tianchi/include
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/tianchi/bluetooth
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_tianchi_defconfig
+#TARGET_KERNEL_CONFIG := cm_tianchi_defconfig
+TARGET_PREBUILT_KERNEL := device/sony/tianchi/kernel
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
